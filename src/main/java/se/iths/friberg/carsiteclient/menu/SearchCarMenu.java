@@ -66,7 +66,7 @@ public class SearchCarMenu{
 
     private void searchByRegNr(){
         io.print("\nEnter registration number: ");
-        String regNr = io.nextLine().trim();
+        String regNr = io.nextLine().toUpperCase().trim();
         io.println("\nSearching for car with registration number: " + regNr);
         io.println();
         
